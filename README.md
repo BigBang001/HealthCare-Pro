@@ -13,24 +13,17 @@ A full-stack healthcare management system built with Flask, SQLAlchemy, JWT auth
 ## Project Structure
 
 ```
-healthcare_backend/
-├── healthcare_backend/        # Django project settings
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   └── wsgi.py
-├── api/                      # Django app for APIs
-│   ├── __init__.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── urls.py
-│   └── permissions.py
-├── manage.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
+├── app.py                # Main Flask app and configuration
+├── api.py                # API endpoints for patients, doctors, and mappings
+├── auth.py               # Authentication (register, login, user info)
+├── main.py               # Entry point to run the app
+├── models.py             # SQLAlchemy models for User, Patient, Doctor, Mapping
+├── static/
+│   ├── app.js            # Frontend JavaScript (UI logic, API calls)
+│   └── style.css         # Custom CSS styles
+├── templates/
 └── README.md
+
 ```
 
 ## Getting Started
