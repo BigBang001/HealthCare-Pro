@@ -8,8 +8,21 @@ A full-stack healthcare management system built with Flask, SQLAlchemy, JWT auth
 - Manage patients and doctors (CRUD)
 - Assign doctors to patients
 - Dashboard with statistics and charts
+
 - Responsive UI with Bootstrap
 
+## Screenshots
+
+<div align="center">
+  <img width = "100%" src="https://github.com/user-attachments/assets/adc7a5f6-9c6d-43ef-8b9b-09b97c979889">
+ <p> Login Screen</p>
+</div>
+
+<br>
+<div align="center">
+  <img width = "100%" src="https://github.com/user-attachments/assets/d50b501b-314e-4d88-97cf-3ed9d15dea68">
+ <p> Main Screen</p>
+</div>
 ## Project Structure
 
 ```
