@@ -1,4 +1,4 @@
- # 🏥HealthCareConnect
+ # 🏥HealthCare-Pro
 
 A full-stack healthcare management system built with Flask, SQLAlchemy, JWT authentication, and a modern Bootstrap frontend.
 
