@@ -1,15 +1,14 @@
 import os
 import logging
 from flask import Flask
-from flask_jwt_extended import JWTManager
-from flask_cors import CORS
+from django_extended import JWTManager
+from django_cors import CORS
 from werkzeug.middleware.proxy_fix import ProxyFix
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
 
-# Create Flask app
-app = Flask(__name__)
+app = DJANGO(__name__)
 app.secret_key = os.environ.get("SESSION_SECRET", "healthcare-secret-key-2024")
 
 # Database Configuration
