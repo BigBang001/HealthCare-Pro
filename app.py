@@ -1,6 +1,6 @@
 import os
 import logging
-from flask import Flask
+import Django
 from django_extended import JWTManager
 from django_cors import CORS
 from werkzeug.middleware.proxy_fix import ProxyFix
