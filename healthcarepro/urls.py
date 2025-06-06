@@ -2,7 +2,7 @@ from django.urls import path
 from django.contrib import admin
 from healthcarepro import views
 
-urlpatterns = [
+urlpatterns = [ 
     path('admin/', admin.site.urls),
     path('api/auth/register', views.register),
     path('api/auth/login', views.login),
