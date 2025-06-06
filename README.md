@@ -1,6 +1,6 @@
  # 🏥HealthCare-Pro
 
-A full-stack healthcare management system built with Flask, SQLAlchemy, JWT authentication, and a modern Bootstrap frontend.
+A full-stack healthcare management system built with Django, PostreSQL, JWT authentication, and a modern Bootstrap frontend.
 
 ## Features
 
@@ -26,15 +26,22 @@ A full-stack healthcare management system built with Flask, SQLAlchemy, JWT auth
 ## Project Structure
 
 ```
-├── app.py                # Main Flask app and configuration
-├── api.py                # API endpoints for patients, doctors, and mappings
-├── auth.py               # Authentication (register, login, user info)
-├── main.py               # Entry point to run the app
-├── models.py             # SQLAlchemy models for User, Patient, Doctor, Mapping
+├── healthcarepro/
+ ├── __init__.py
+ ├── apps.py
+ ├── models.py
+ ├── serializers.py
+ ├── urls.py
+ ├── views.py
+ ├── wsgi.py
+├── instance/
+ ├── healthcare.db
 ├── static/
-│   ├── app.js            # Frontend JavaScript (UI logic, API calls)
-│   └── style.css         # Custom CSS styles
+ ├──app.js
+ ├── style.css          
 ├── templates/
+ ├── index.html
+├── manage.py
 └── README.md
 
 ```
